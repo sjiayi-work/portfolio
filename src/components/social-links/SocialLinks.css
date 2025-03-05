@@ -1,0 +1,41 @@
+.social-links {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.social-link {
+    border-radius: 2.6rem;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    height: 2.6rem;
+    line-height: 2.6rem;
+    position: relative;
+    text-align: center;
+    -webkit-user-select: none;
+    user-select: none;
+    width: 2.6rem;
+    color: var(--primary-reverse-accent);
+    transition: .2s ease-in;
+}
+
+.social-link:hover {
+    background-color: var(--secondary-accent);
+}
+
+.icon-linkedin {
+    background-color: #0077b5;
+}
+
+.icon-github {
+    background-color: #333;
+}
+
+.icon-email {
+    background-color: #ea4335;
+}
+
+.no-icon {
+    background-color: red;
+}

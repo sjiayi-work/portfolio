@@ -1,0 +1,121 @@
+@media (max-width: 1320px) {
+    .container-lg {
+        max-width: 1600px;
+    }
+}
+
+@media (max-width: 1070px) {
+    section#home {
+        padding: 7rem 0 !important;
+    }
+    
+    #home .container .content {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    
+    #home .container .content .contact {
+        text-align: center;
+    }
+    
+    #home .container .content .contact .social-links {
+        justify-content: center;
+    }
+    
+    #about .about-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    
+    #experiences .timeline {
+        flex-direction: row-reverse;
+    }
+    
+    #experiences .left-panel {
+        display: none;
+    }
+    
+    #experiences .right-panel {
+        width: 100%;
+    }
+    
+    #experiences .right-panel .d-none {
+        display: block;
+    }
+    
+    #skills .skill-block {
+        flex-direction: column-reverse;
+        gap: 0;
+    }
+}
+
+@media (max-width: 977px) {
+    section {
+        padding: 4rem 0;
+    }
+    
+    .header .btn-menu {
+        display: block;
+    }
+    
+    .header .nav-list {
+        display: none;
+    }
+    
+    .header .navbar.open {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: var(--primary-reverse-accent);
+        align-items: start;
+        z-index: 1;
+        padding: 46px 30px;
+        justify-content: center;
+        flex-direction: column;
+        row-gap: 24px;
+        font-size: 48px;
+        font-weight: 500;
+        height: auto;
+        max-height: 1000px;
+        box-shadow: 0 10px 30px -15px var(--card-box-shadow-color);
+    }
+    
+    .header .navbar.open .nav-list {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .header .navbar.open .nav-title {
+        display: none;
+    }
+    
+    .header .navbar.open .nav-list .nav-link {
+        font-size: 30px;
+    }
+    
+    .header .navbar.open .btn-menu {
+        position: fixed;
+        top: 20px;
+        right: 35px;
+    }
+    
+    #skills .skill-set,
+    #skills .skill-set:nth-child(even) {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    section.home .content,
+    section.about .content,
+    section#contact .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 728px) {
+    html, body {
+        min-width: 728px;   /* Minimum width for tablet devices */
+    }
+}

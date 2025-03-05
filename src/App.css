@@ -1,0 +1,4 @@
+.app {
+    color: var(--primary-accent);
+    background-color: var(--primary-reverse-accent);
+}

@@ -1,0 +1,244 @@
+{
+    "data": [{
+        "id": 1,
+        "company": "Yell Research",
+        "position": "Technical Consultant",
+        "date": "Nov 2024 - Present",
+        "employmentType": "Contract",
+        "location": "Remote",
+        "icon": "../../src/assets/images/comp-yr.png",
+        "tasks": [
+            "Assisted in creating training material and resources for onboarding new employees, enabling faster learning and smoother transitions.",
+            "Involved in technical tasks occasionally."
+        ],
+        "technologies": [{
+            "id": 1,
+            "label": "Azure DevOps",
+            "icon": "../../src/assets/images/devicon--azuredevops.png"
+        }, {
+            "id": 2,
+            "label": "Alfresco",
+            "icon": "../../src/assets/images/logos--alfresco.png"
+        }]
+    }, {
+        "id": 2,
+        "company": "Yell Research",
+        "position": "Senior Software Engineer",
+        "date": "Aug 2017 - Oct 2024",
+        "employmentType": "Full-time",
+        "location": "Remote",
+        "icon": "../../src/assets/images/comp-yr.png",
+        "tasks": [
+            "Led the development team to deliver complex web applications on time.",
+            "Spearheaded the integration of the application into Microsoft Teams as a channel tab, using connectors and webhooks.",
+            "Architected and migrated an Alfresco-based project to a lightweight Node.js and Angular solution, using Fedora Commons Repository for digital content storage.",
+            "Prototyped a Python-based AI application using Ollama, OpenAI and Google Vertex AI to generate dynamic, context aware responses.",
+            "Designed and implemented RESTful APIs for front end communication in Express.js",
+            "Collaborated with business analysts to align technical solutions with business processes, translating requirements into actionable features.",
+            "Assisted in defining project timelines, estimating effort, and coordinating resources for sprint planning, ensuring achievable development scope.",
+            "Mentored junior developers on coding best practices, design patterns, and troubleshooting.",
+            "Participated in code reviewing of the team, ensuring functional and technical standards are well maintained.",
+            "Collaborated with the QA team to identify bugs and troubleshoot issues, ensuring software quality.",
+            "Created technical specifications with UI design and divided them into tasks.",
+            "Managed application deployment in Docker."
+        ],
+        "technologies": [{
+            "id": 1,
+            "label": "Alfresco",
+            "icon": "../../src/assets/images/logos--alfresco.png"
+        }, {
+            "id": 1,
+            "label": "Angular",
+            "icon": "../../src/assets/images/devicon--angular.png"
+        }, {
+            "id": 2,
+            "label": "Angular Material",
+            "icon": "../../src/assets/images/devicon--angularmaterial.png"
+        }, {
+            "id": 3,
+            "label": "Bootstrap",
+            "icon": "../../src/assets/images/logos--bootstrap.png"
+        }, {
+            "id": 4,
+            "label": "TypeScript",
+            "icon": "../../src/assets/images/devicon--typescript.png"
+        }, {
+            "id": 5,
+            "label": "Node.js",
+            "icon": "../../src/assets/images/devicon--nodejs.png"
+        }, {
+            "id": 6,
+            "label": "Express.js",
+            "icon": "../../src/assets/images/skill-icons--expressjs-light.png"
+        }, {
+            "id": 7,
+            "label": "Python",
+            "icon": "../../src/assets/images/devicon--python.png"
+        }, {
+            "id": 8,
+            "label": "FastAPI",
+            "icon": "../../src/assets/images/devicon--fastapi.png"
+        }, {
+            "id": 9,
+            "label": "PostgreSQL",
+            "icon": "../../src/assets/images/devicon--postgresql.png"
+        }, {
+            "id": 10,
+            "label": "Figma",
+            "icon": "../../src/assets/images/devicon--figma.png"
+        }, {
+            "id": 11,
+            "label": "Fedora Commons Repository",
+            "icon": "../../src/assets/images/logos--fedora-commons-repository.png"
+        }, {
+            "id": 12,
+            "label": "Microsoft Graph API",
+            "icon": "../../src/assets/images/logos--microsoft-icon.png"
+        }, {
+            "id": 13,
+            "label": "Google API",
+            "icon": "../../src/assets/images/devicon--google.png"
+        }, {
+            "id": 14,
+            "label": "AWSS3 JS SDK",
+            "icon": "../../src/assets/images/logos--aws-s3.png"
+        }, {
+            "id": 15,
+            "label": "OpenAI",
+            "icon": "../../src/assets/images/logos--openai-icon.png"
+        }, {
+            "id": 16,
+            "label": "Ollama",
+            "icon": "../../src/assets/images/logos--ollama.png"
+        }, {
+            "id": 17,
+            "label": "Auth0",
+            "icon": "../../src/assets/images/logos--auth0-icon.png"
+        }, {
+            "id": 18,
+            "label": "Mocha",
+            "icon": "../../src/assets/images/devicon--mocha.png"
+        }, {
+            "id": 19,
+            "label": "Docker",
+            "icon": "../../src/assets/images/logos--docker-icon.png"
+        }]
+    }, {
+        "id": 3,
+        "company": "Yell Research",
+        "position": "Software Engineer / Alfresco Java Developer",
+        "date": "Nov 2013 - Jul 2017",
+        "employmentType": "Full-time",
+        "location": "Kuala Lumpur",
+        "icon": "../../src/assets/images/comp-yr.png",
+        "tasks": [
+            "Designed and developed Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
+            "Implemented custom features on Alfresco backend using Java",
+            "Customised Alfresco Share UIs and actions using YUI library, Dojo toolkit and jQuery.",
+            "Developed custom widgets (dashlets) to display specific content or functionalities on the Alfresco dashboard.",
+            "Externalised custom UIs by developing separate AngularJS web application, offering a more interactive and lightweight alternative to the native Alfresco Share UIs",
+            "Built custom UIs based on the client's Figma design.",
+            "Provided technical support for existing products by performing bug fixes and resolving issues reported by users.",
+            "Wrote QUnit tests, prepared behavior-driven test cases, and conducted manual end-to-end (e2e) testing to ensure the integrity of features and applications."
+        ],
+        "technologies": [{
+            "id": 1,
+            "label": "Alfresco",
+            "icon": "../../src/assets/images/logos--alfresco.png"
+        }, {
+            "id": 3,
+            "label": "MySQL",
+            "icon": "../../src/assets/images/devicon--mysql.png"
+        }, {
+            "id": 4,
+            "label": "Java 8",
+            "icon": "../../src/assets/images/devicon--java.png"
+        }, {
+            "id": 5,
+            "label": "JavaScript",
+            "icon": "../../src/assets/images/devicon--javascript.png"
+        }, {
+            "id": 6,
+            "label": "AngularJS",
+            "icon": "../../src/assets/images/devicon--angularjs.png"
+        }, {
+            "id": 7,
+            "label": "Bootstrap",
+            "icon": "../../src/assets/images/logos--bootstrap.png"
+        }, {
+            "id": 8,
+            "label": "jQuery",
+            "icon": "../../src/assets/images/devicon--jquery.png"
+        }, {
+            "id": 9,
+            "label": "YUI",
+            "icon": "../../src/assets/images/logos--yui.png"
+        }, {
+            "id": 10,
+            "label": "QUnit",
+            "icon": "../../src/assets/images/devicon--qunit.png"
+        }, {
+            "id": 11,
+            "label": "Dojo Toolkit",
+            "icon": "../../src/assets/images/logos--dojo-toolkit.png"
+        }, {
+            "id": 12,
+            "label": "Tomcat",
+            "icon": "../../src/assets/images/devicon--tomcat.png"
+        }, {
+            "id": 13,
+            "label": "Jira",
+            "icon": "../../src/assets/images/devicon--jira.png"
+        }, {
+            "id": 14,
+            "label": "Confluence",
+            "icon": "../../src/assets/images/devicon--confluence.png"
+        }, {
+            "id": 15,
+            "label": "Bitbicket",
+            "icon": "../../src/assets/images/devicon--bitbucket.png"
+        }]
+    }, {
+        "id": 4,
+        "company": "International Group",
+        "position": "Developer",
+        "date": "Apr 2011 - Dec 2012",
+        "employmentType": "Full-time",
+        "location": "Kuala Lumpur",
+        "icon": "../../src/assets/images/comp-brunsfield.png",
+        "tasks": [
+            "Built features on various in-house systems, translating the design to JSP codes.",
+            "Enhanced existing UIs to be more responsive using jQuery and AJAX.",
+            "Prepared documentation and user manuals."
+        ],
+        "technologies": [{
+            "id": 1,
+            "label": "HTML",
+            "icon": "../../src/assets/images/devicon--html5.png"
+        }, {
+            "id": 2,
+            "label": "CSS",
+            "icon": "../../src/assets/images/devicon--css3.png"
+        }, {
+            "id": 3,
+            "label": "Java 6",
+            "icon": "../../src/assets/images/devicon--java.png"
+        }, {
+            "id": 4,
+            "label": "JavaServer Pages",
+            "icon": "../../src/assets/images/logos--jsp.png"
+        }, {
+            "id": 5,
+            "label": "MySQL",
+            "icon": "../../src/assets/images/devicon--mysql.png"
+        }, {
+            "id": 6,
+            "label": "Tomcat",
+            "icon": "../../src/assets/images/devicon--tomcat.png"
+        }, {
+            "id": 7,
+            "label": "JSON",
+            "icon": "../../src/assets/images/devicon--json.png"
+        }]
+    }]
+}

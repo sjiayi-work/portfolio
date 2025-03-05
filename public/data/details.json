@@ -1,0 +1,21 @@
+{
+    "headerTitle": "JY Siew",
+    
+    "socialLinks": [{
+        "id": 1,
+        "link": "https://www.linkedin.com/in/j-y-11664784/",
+        "label": "LinkedIn"
+    }, {
+        "id": 2,
+        "link": "mailto:sjiayi.work@gmail.com",
+        "label": "Email"
+    }, {
+        "id": 3,
+        "link": "#",
+        "label": "GitHub"
+    }],
+    
+    "contactDescription": "I'm looking for full-time Software Engineering or Machine Learning opportunities. If you know of any positions available, let's talk and work together!",
+    
+    "openToPublic": true
+}

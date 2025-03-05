@@ -1,0 +1,24 @@
+section#home {
+    padding: 0;
+}
+
+.home {
+    padding-top: 200px;
+}
+
+.home .content {
+    text-align: left;
+    height: calc(100vh - 90px);
+}
+
+.greeting-title {
+    margin: 5px 0;
+    font-weight: 500;
+    font-size: clamp(3.25rem, 2.75rem + 2.5vw, 5rem);
+    line-height: 1.2;
+}
+
+.greeting-subtitle {
+    font-size: clamp(1.125rem, 1.054rem + 0.36vw, 1.375rem);
+    font-weight: 400;
+}

@@ -1,0 +1,25 @@
+#tech-stack li::before {
+    content: '';
+}
+
+.stack-list {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#tech-stack h2.title {
+    gap: 1rem;
+}
+
+.stack-item {
+    border: 1px solid var(--gray-color);
+    border-radius: 20px;
+    padding: 10px 15px 10px 0;
+    gap: 10px;
+}
+
+.stack-item:hover {
+    box-shadow: 0 20px 30px -10px var(--card-box-shadow-color);
+}

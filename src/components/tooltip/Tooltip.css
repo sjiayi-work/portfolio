@@ -1,0 +1,27 @@
+.tooltip {
+    position: relative;
+    overflow: visible;  /* allow child to overflow */
+}
+
+.tooltip-text {
+    display: none;
+    position: absolute;
+    font-size: 12px;
+    background-color: #2f3033;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+    word-break: normal;
+    padding: 4px 8px;
+    min-width: 40px;
+    max-width: 200px;
+    min-height: 24px;
+    max-height: 40vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.tooltip-text.show {
+    display: block;
+}

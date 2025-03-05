@@ -1,0 +1,9 @@
+.about .content {
+    text-align: left;
+}
+
+.about-description {
+    font-size: clamp(1rem, 0.964rem + 0.18vw, 1.125rem);
+    line-height: 1.7;
+    margin-top: 0;
+}

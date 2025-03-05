@@ -1,0 +1,56 @@
+/* #tech-stack.container {
+    max-width: 1200px;
+}
+
+#tech-stack .card {
+    padding: 2rem;
+}
+
+#tech-stack h2.title {
+    gap: 1rem;
+}
+
+.stack-list {
+    display: grid;
+    gap: 4rem 2rem;
+    flex-wrap: wrap;         
+    margin-top: 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stack-list li::before {
+    content: '';
+}
+
+.tech-image {
+    height: 48px;
+    transition: transform 0.3s ease; 
+}
+
+.tech-image:hover {
+    transform: scale(1.15);          
+} */
+ 
+ul.technologies {
+    display: grid;
+    gap: 4rem 2rem;
+    flex-wrap: wrap;         
+    margin-top: 0;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+ul.technologies.flex {
+    display: flex;
+}
+
+ul.technologies > li {
+    transition: transform 0.3s ease;
+}
+
+ul.technologies > li::before {
+    content: '';
+}
+
+ul.technologies > li:hover {
+    transform: scale(1.2);
+}

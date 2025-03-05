@@ -1,0 +1,84 @@
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 26px;
+}
+
+/* Fix visible slider checkbox */
+input {
+    transform: scale(0.5);
+}
+
+.switch-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ccc;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+.switch-slider::before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 28px;
+    left: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+}
+
+input:checked + .switch-slider {
+    background-color: #2196f3;
+}
+
+input:focus + .switch-slider {
+    box-shadow: #2196f3;
+}
+
+input:checked + .switch-slider::before,
+input:checked + .switch-slider > .emoji {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.switch-slider.round {
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.switch-slider.round::before {
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+}
+
+.switch-slider::after {
+    display: inline;
+    position: absolute;
+    right: 9.3%;
+    bottom: 17.5%;
+}
+
+input:checked + .switch-slider::after {
+    display: inline;
+    position: absolute;
+    right: 56.3%;
+    bottom: 14.5%;
+}
+
+.emoji {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+}
