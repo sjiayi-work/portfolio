@@ -17,7 +17,7 @@ const Navbar = () => {
         { id: 1, label: 'Skills', href: '#skills' },
         { id: 2, label: 'Experiences', href: '#experiences' },
         { id: 3, label: 'Education', href: '#education' },
-        { id: 3, label: 'Contact', href: '#contact' }
+        { id: 4, label: 'Contact', href: '#contact' }
     ];
     
     const [menuIcon, setMenuIcon] = useState<IconDefinition>(faBars);

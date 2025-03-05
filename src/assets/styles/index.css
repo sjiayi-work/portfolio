@@ -33,6 +33,7 @@ html {
 body {
     font-family: "Poppins", sans-serif;
     letter-spacing: -0.15px;
+    overflow-x: hidden;
 }
 
 section {
@@ -79,7 +80,7 @@ li::before {
 }
 
 .container-lg {
-    max-width: 1500px;
+    max-width: 1350px;
 }
 
 .text-left {

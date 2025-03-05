@@ -1,7 +1,7 @@
 @media (max-width: 1320px) {
-    .container-lg {
-        max-width: 1600px;
-    }
+    /* .container-lg {
+        max-width: 1300px;
+    } */
 }
 
 @media (max-width: 1070px) {
@@ -99,11 +99,6 @@
         top: 20px;
         right: 35px;
     }
-    
-    #skills .skill-set,
-    #skills .skill-set:nth-child(even) {
-        flex-direction: column;
-    }
 }
 
 @media (max-width: 768px) {
@@ -117,5 +112,6 @@
 @media (max-width: 728px) {
     html, body {
         min-width: 728px;   /* Minimum width for tablet devices */
+        overflow-x: auto;
     }
 }
