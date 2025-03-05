@@ -37,7 +37,7 @@ const Home = () => {
                                 </div>
                             </div>
                             <div className="text-center">
-                                <img className="image-profile" src="src/assets/images/avatar.jpg" alt="Avatar" />
+                                <img className="image-profile" src="/images/avatar.jpg" alt="Avatar" />
                                 <h3 className="font-bold">{ homeData.displayName }</h3>
                                 <h4 className="color-secondary">
                                     <TypingEffect words={homeData.titles} />

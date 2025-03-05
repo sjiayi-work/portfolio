@@ -2,47 +2,47 @@
     "data": [{
         "id": 1,
         "title": "Full Stack Development",
-        "image": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 16 16\"><path fill=\"currentColor\" d=\"M16 5L8 1L0 5l8 4zM8 2.328L13.345 5L8 7.672L2.655 5zm6.398 4.871L16 8l-8 4l-8-4l1.602-.801L8 10.398zm0 3L16 11l-8 4l-8-4l1.602-.801L8 13.398z\"/></svg>",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 16 16'><path fill='currentColor' d='M16 5L8 1L0 5l8 4zM8 2.328L13.345 5L8 7.672L2.655 5zm6.398 4.871L16 8l-8 4l-8-4l1.602-.801L8 10.398zm0 3L16 11l-8 4l-8-4l1.602-.801L8 13.398z'/></svg>",
         "technologies": [{
             "id": 1,
             "label": "Node.js",
-            "icon": "../../src/assets/images/devicon--nodejs.png"
+            "icon": "/images/devicon--nodejs.png"
         }, {
             "id": 2,
             "label": "Express.js",
-            "icon": "../../src/assets/images/skill-icons--expressjs-light.png"
+            "icon": "/images/skill-icons--expressjs-light.png"
         }, {
             "id": 3,
             "label": "Angular",
-            "icon": "../../src/assets/images/devicon--angular.png"
+            "icon": "/images/devicon--angular.png"
         }, {
             "id": 4,
             "label": "Angular Material",
-            "icon": "../../src/assets/images/devicon--angularmaterial.png"
+            "icon": "/images/devicon--angularmaterial.png"
         }, {
             "id": 5,
             "label": "TypeScript",
-            "icon": "../../src/assets/images/devicon--typescript.png"
+            "icon": "/images/devicon--typescript.png"
         }, {
             "id": 6,
             "label": "PostgreSQL",
-            "icon": "../../src/assets/images/devicon--postgresql.png"
+            "icon": "/images/devicon--postgresql.png"
         }, {
             "id": 7,
             "label": "Postman",
-            "icon": "../../src/assets/images/devicon--postman.png"
+            "icon": "/images/devicon--postman.png"
         }, {
             "id": 8,
             "label": "Mocha",
-            "icon": "../../src/assets/images/devicon--mocha.png"
+            "icon": "/images/devicon--mocha.png"
         }, {
             "id": 9,
             "label": "Chai",
-            "icon": "../../src/assets/images/logos--chai.png"
+            "icon": "/images/logos--chai.png"
         }, {
             "id": 10,
             "label": "Auth0",
-            "icon": "../../src/assets/images/logos--auth0-icon.png"
+            "icon": "/images/logos--auth0-icon.png"
         }],
         "descriptions": [
             "Create application backend in Node.js & Express.js",
@@ -58,47 +58,47 @@
         "technologies": [{
             "id": 1,
             "label": "Alfresco",
-            "icon": "../../src/assets/images/logos--alfresco.png"
+            "icon": "/images/logos--alfresco.png"
         }, {
             "id": 2,
             "label": "Fedora Commons Repository",
-            "icon": "../../src/assets/images/logos--fedora-commons-repository.png"
+            "icon": "/images/logos--fedora-commons-repository.png"
         }, {
             "id": 3,
             "label": "MySQL",
-            "icon": "../../src/assets/images/devicon--mysql.png"
+            "icon": "/images/devicon--mysql.png"
         }, {
             "id": 4,
             "label": "Java",
-            "icon": "../../src/assets/images/devicon--java.png"
+            "icon": "/images/devicon--java.png"
         }, {
             "id": 5,
             "label": "JavaScript",
-            "icon": "../../src/assets/images/devicon--javascript.png"
+            "icon": "/images/devicon--javascript.png"
         }, {
             "id": 6,
             "label": "AngularJS",
-            "icon": "../../src/assets/images/devicon--angularjs.png"
+            "icon": "/images/devicon--angularjs.png"
         }, {
             "id": 7,
             "label": "Bootstrap",
-            "icon": "../../src/assets/images/logos--bootstrap.png"
+            "icon": "/images/logos--bootstrap.png"
         }, {
             "id": 8,
             "label": "jQuery",
-            "icon": "../../src/assets/images/devicon--jquery.png"
+            "icon": "/images/devicon--jquery.png"
         }, {
             "id": 9,
             "label": "YUI",
-            "icon": "../../src/assets/images/logos--yui.png"
+            "icon": "/images/logos--yui.png"
         }, {
             "id": 10,
             "label": "QUnit",
-            "icon": "../../src/assets/images/devicon--qunit.png"
+            "icon": "/images/devicon--qunit.png"
         }, {
             "id": 11,
             "label": "Dojo Toolkit",
-            "icon": "../../src/assets/images/logos--dojo-toolkit.png"
+            "icon": "/images/logos--dojo-toolkit.png"
         }],
         "descriptions": [
             "Implement custom features and RESTful APIs in Alfresco",
@@ -109,23 +109,23 @@
     }, {
         "id": 3,
         "title": "Data Science",
-        "image": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 24 24\"><g fill=\"none\" fill-rule=\"evenodd\"><path fill=\"currentColor\" d=\"M9.655 3.4A12.3 12.3 0 0 1 12 4.444A12.3 12.3 0 0 1 14.345 3.4c2.044-.646 4.08-.531 5.433.822s1.468 3.39.822 5.433A12.3 12.3 0 0 1 19.556 12c.456.803.805 1.59 1.044 2.345c.646 2.043.531 4.08-.822 5.433s-3.39 1.468-5.433.822A12.3 12.3 0 0 1 12 19.556A12.3 12.3 0 0 1 9.655 20.6c-2.043.645-4.08.531-5.433-.822s-1.467-3.39-.822-5.433c.239-.756.588-1.542 1.044-2.345A12.3 12.3 0 0 1 3.4 9.655c-.645-2.044-.53-4.08.822-5.433c1.353-1.353 3.39-1.468 5.433-.822m8.635 10.509c-.59.778-1.274 1.56-2.047 2.334a23 23 0 0 1-2.334 2.046q.539.246 1.039.404c1.698.536 2.816.27 3.416-.33c.6-.599.866-1.718.33-3.415a9 9 0 0 0-.404-1.04Zm-12.58 0a9 9 0 0 0-.403 1.039c-.536 1.698-.27 2.816.33 3.416c.599.6 1.718.865 3.415.329q.5-.158 1.04-.404a23 23 0 0 1-2.334-2.046a23 23 0 0 1-2.047-2.334ZM12 6.8a20 20 0 0 0-2.828 2.372A20 20 0 0 0 6.8 12a20 20 0 0 0 2.37 2.828c.963.963 1.916 1.75 2.83 2.372a20 20 0 0 0 2.828-2.372A20 20 0 0 0 17.199 12a19.7 19.7 0 0 0-2.37-2.828A20 20 0 0 0 12 6.8m0 3.7a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M5.636 5.636c-.6.6-.865 1.718-.329 3.416q.158.5.404 1.04c.59-.78 1.273-1.561 2.047-2.335a23 23 0 0 1 2.333-2.046a9 9 0 0 0-1.039-.404c-1.697-.536-2.816-.27-3.416.329m9.312-.329q-.5.158-1.039.404c.778.59 1.56 1.273 2.334 2.046a23 23 0 0 1 2.047 2.334q.246-.539.403-1.039c.537-1.698.271-2.816-.329-3.416s-1.718-.865-3.416-.329\"/></g></svg>",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 24 24'><g fill='none' fill-rule='evenodd'><path fill='currentColor' d='M9.655 3.4A12.3 12.3 0 0 1 12 4.444A12.3 12.3 0 0 1 14.345 3.4c2.044-.646 4.08-.531 5.433.822s1.468 3.39.822 5.433A12.3 12.3 0 0 1 19.556 12c.456.803.805 1.59 1.044 2.345c.646 2.043.531 4.08-.822 5.433s-3.39 1.468-5.433.822A12.3 12.3 0 0 1 12 19.556A12.3 12.3 0 0 1 9.655 20.6c-2.043.645-4.08.531-5.433-.822s-1.467-3.39-.822-5.433c.239-.756.588-1.542 1.044-2.345A12.3 12.3 0 0 1 3.4 9.655c-.645-2.044-.53-4.08.822-5.433c1.353-1.353 3.39-1.468 5.433-.822m8.635 10.509c-.59.778-1.274 1.56-2.047 2.334a23 23 0 0 1-2.334 2.046q.539.246 1.039.404c1.698.536 2.816.27 3.416-.33c.6-.599.866-1.718.33-3.415a9 9 0 0 0-.404-1.04Zm-12.58 0a9 9 0 0 0-.403 1.039c-.536 1.698-.27 2.816.33 3.416c.599.6 1.718.865 3.415.329q.5-.158 1.04-.404a23 23 0 0 1-2.334-2.046a23 23 0 0 1-2.047-2.334ZM12 6.8a20 20 0 0 0-2.828 2.372A20 20 0 0 0 6.8 12a20 20 0 0 0 2.37 2.828c.963.963 1.916 1.75 2.83 2.372a20 20 0 0 0 2.828-2.372A20 20 0 0 0 17.199 12a19.7 19.7 0 0 0-2.37-2.828A20 20 0 0 0 12 6.8m0 3.7a1.5 1.5 0 1 1 0 3a1.5 1.5 0 0 1 0-3M5.636 5.636c-.6.6-.865 1.718-.329 3.416q.158.5.404 1.04c.59-.78 1.273-1.561 2.047-2.335a23 23 0 0 1 2.333-2.046a9 9 0 0 0-1.039-.404c-1.697-.536-2.816-.27-3.416.329m9.312-.329q-.5.158-1.039.404c.778.59 1.56 1.273 2.334 2.046a23 23 0 0 1 2.047 2.334q.246-.539.403-1.039c.537-1.698.271-2.816-.329-3.416s-1.718-.865-3.416-.329'/></g></svg>",
         "technologies": [{
             "id": 1,
             "label": "Python",
-            "icon": "../../src/assets/images/devicon--python.png"
+            "icon": "/images/devicon--python.png"
         }, {
             "id": 2,
             "label": "FastAPI",
-            "icon": "../../src/assets/images/devicon--fastapi.png"
+            "icon": "/images/devicon--fastapi.png"
         }, {
             "id": 3,
             "label": "OpenAI",
-            "icon": "../../src/assets/images/logos--openai-icon.png"
+            "icon": "/images/logos--openai-icon.png"
         }, {
             "id": 4,
             "label": "Ollama",
-            "icon": "../../src/assets/images/logos--ollama.png"
+            "icon": "/images/logos--ollama.png"
         }],
         "descriptions": [
             "Prototype a web application using the FastAPI and Angular frameworks",
@@ -134,35 +134,35 @@
     }, {
         "id": 4,
         "title": "Others",
-        "image": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"48\" height=\"48\" viewBox=\"0 0 2048 2048\"><path fill=\"currentColor\" d=\"M1914 1539q6 30 6 61t-6 61l124 51l-49 119l-124-52q-35 51-86 86l52 124l-119 49l-51-124q-30 6-61 6t-61-6l-51 124l-119-49l52-124q-51-35-86-86l-124 52l-49-119l124-51q-6-30-6-61t6-61l-124-51l49-119l124 52q35-51 86-86l-52-124l119-49l51 124q30-6 61-6t61 6l51-124l119 49l-52 124q51 35 86 86l124-52l49 119zm-314 253q40 0 75-15t61-41t41-61t15-75t-15-75t-41-61t-61-41t-75-15t-75 15t-61 41t-41 61t-15 75t15 75t41 61t61 41t75 15m-704-512v128h130q-11 31-17 63t-11 65H512v-128h256v-128H0V256h1664v768h-128V384H128v768h1064q-62 57-107 128z\"/></svg>",
+        "image": "<svg xmlns='http://www.w3.org/2000/svg' width='48' height='48' viewBox='0 0 2048 2048'><path fill='currentColor' d='M1914 1539q6 30 6 61t-6 61l124 51l-49 119l-124-52q-35 51-86 86l52 124l-119 49l-51-124q-30 6-61 6t-61-6l-51 124l-119-49l52-124q-51-35-86-86l-124 52l-49-119l124-51q-6-30-6-61t6-61l-124-51l49-119l124 52q35-51 86-86l-52-124l119-49l51 124q30-6 61-6t61 6l51-124l119 49l-52 124q51 35 86 86l124-52l49 119zm-314 253q40 0 75-15t61-41t41-61t15-75t-15-75t-41-61t-61-41t-75-15t-75 15t-61 41t-41 61t-15 75t15 75t41 61t61 41t75 15m-704-512v128h130q-11 31-17 63t-11 65H512v-128h256v-128H0V256h1664v768h-128V384H128v768h1064q-62 57-107 128z'/></svg>",
         "technologies": [{
             "id": 1,
             "label": "Git",
-            "icon": "../../src/assets/images/devicon--git.png"
+            "icon": "/images/devicon--git.png"
         }, {
             "id": 2,
             "label": "Docker",
-            "icon": "../../src/assets/images/logos--docker-icon.png"
+            "icon": "/images/logos--docker-icon.png"
         }, {
             "id": 3,
             "label": "Figma",
-            "icon": "../../src/assets/images/devicon--figma.png"
+            "icon": "/images/devicon--figma.png"
         }, {
             "id": 4,
             "label": "Linux",
-            "icon": "../../src/assets/images/devicon--linux.png"
+            "icon": "/images/devicon--linux.png"
         }, {
             "id": 5,
             "label": "Azure DevOps",
-            "icon": "../../src/assets/images/devicon--azuredevops.png"
+            "icon": "/images/devicon--azuredevops.png"
         }, {
             "id": 6,
             "label": "Jira",
-            "icon": "../../src/assets/images/devicon--jira.png"
+            "icon": "/images/devicon--jira.png"
         }, {
             "id": 7,
             "label": "Confluence",
-            "icon": "../../src/assets/images/devicon--confluence.png"
+            "icon": "/images/devicon--confluence.png"
         }],
         "descriptions": [
             "Build and deploy applications using Docker",

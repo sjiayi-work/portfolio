@@ -6,7 +6,7 @@
         "date": "Nov 2024 - Present",
         "employmentType": "Contract",
         "location": "Remote",
-        "icon": "../../src/assets/images/comp-yr.png",
+        "icon": "/images/comp-yr.png",
         "tasks": [
             "Assisted in creating training material and resources for onboarding new employees, enabling faster learning and smoother transitions.",
             "Involved in technical tasks occasionally."
@@ -14,11 +14,11 @@
         "technologies": [{
             "id": 1,
             "label": "Azure DevOps",
-            "icon": "../../src/assets/images/devicon--azuredevops.png"
+            "icon": "/images/devicon--azuredevops.png"
         }, {
             "id": 2,
             "label": "Alfresco",
-            "icon": "../../src/assets/images/logos--alfresco.png"
+            "icon": "/images/logos--alfresco.png"
         }]
     }, {
         "id": 2,
@@ -27,7 +27,7 @@
         "date": "Aug 2017 - Oct 2024",
         "employmentType": "Full-time",
         "location": "Remote",
-        "icon": "../../src/assets/images/comp-yr.png",
+        "icon": "/images/comp-yr.png",
         "tasks": [
             "Led the development team to deliver complex web applications on time.",
             "Spearheaded the integration of the application into Microsoft Teams as a channel tab, using connectors and webhooks.",
@@ -45,83 +45,83 @@
         "technologies": [{
             "id": 1,
             "label": "Alfresco",
-            "icon": "../../src/assets/images/logos--alfresco.png"
-        }, {
-            "id": 1,
-            "label": "Angular",
-            "icon": "../../src/assets/images/devicon--angular.png"
+            "icon": "/images/logos--alfresco.png"
         }, {
             "id": 2,
-            "label": "Angular Material",
-            "icon": "../../src/assets/images/devicon--angularmaterial.png"
+            "label": "Angular",
+            "icon": "/images/devicon--angular.png"
         }, {
             "id": 3,
-            "label": "Bootstrap",
-            "icon": "../../src/assets/images/logos--bootstrap.png"
+            "label": "Angular Material",
+            "icon": "/images/devicon--angularmaterial.png"
         }, {
             "id": 4,
-            "label": "TypeScript",
-            "icon": "../../src/assets/images/devicon--typescript.png"
+            "label": "Bootstrap",
+            "icon": "/images/logos--bootstrap.png"
         }, {
             "id": 5,
-            "label": "Node.js",
-            "icon": "../../src/assets/images/devicon--nodejs.png"
+            "label": "TypeScript",
+            "icon": "/images/devicon--typescript.png"
         }, {
             "id": 6,
-            "label": "Express.js",
-            "icon": "../../src/assets/images/skill-icons--expressjs-light.png"
+            "label": "Node.js",
+            "icon": "/images/devicon--nodejs.png"
         }, {
             "id": 7,
-            "label": "Python",
-            "icon": "../../src/assets/images/devicon--python.png"
+            "label": "Express.js",
+            "icon": "/images/skill-icons--expressjs-light.png"
         }, {
             "id": 8,
-            "label": "FastAPI",
-            "icon": "../../src/assets/images/devicon--fastapi.png"
+            "label": "Python",
+            "icon": "/images/devicon--python.png"
         }, {
             "id": 9,
-            "label": "PostgreSQL",
-            "icon": "../../src/assets/images/devicon--postgresql.png"
+            "label": "FastAPI",
+            "icon": "/images/devicon--fastapi.png"
         }, {
             "id": 10,
-            "label": "Figma",
-            "icon": "../../src/assets/images/devicon--figma.png"
+            "label": "PostgreSQL",
+            "icon": "/images/devicon--postgresql.png"
         }, {
             "id": 11,
-            "label": "Fedora Commons Repository",
-            "icon": "../../src/assets/images/logos--fedora-commons-repository.png"
+            "label": "Figma",
+            "icon": "/images/devicon--figma.png"
         }, {
             "id": 12,
-            "label": "Microsoft Graph API",
-            "icon": "../../src/assets/images/logos--microsoft-icon.png"
+            "label": "Fedora Commons Repository",
+            "icon": "/images/logos--fedora-commons-repository.png"
         }, {
             "id": 13,
-            "label": "Google API",
-            "icon": "../../src/assets/images/devicon--google.png"
+            "label": "Microsoft Graph API",
+            "icon": "/images/logos--microsoft-icon.png"
         }, {
             "id": 14,
-            "label": "AWSS3 JS SDK",
-            "icon": "../../src/assets/images/logos--aws-s3.png"
+            "label": "Google API",
+            "icon": "/images/devicon--google.png"
         }, {
             "id": 15,
-            "label": "OpenAI",
-            "icon": "../../src/assets/images/logos--openai-icon.png"
+            "label": "AWSS3 JS SDK",
+            "icon": "/images/logos--aws-s3.png"
         }, {
             "id": 16,
-            "label": "Ollama",
-            "icon": "../../src/assets/images/logos--ollama.png"
+            "label": "OpenAI",
+            "icon": "/images/logos--openai-icon.png"
         }, {
             "id": 17,
-            "label": "Auth0",
-            "icon": "../../src/assets/images/logos--auth0-icon.png"
+            "label": "Ollama",
+            "icon": "/images/logos--ollama.png"
         }, {
             "id": 18,
-            "label": "Mocha",
-            "icon": "../../src/assets/images/devicon--mocha.png"
+            "label": "Auth0",
+            "icon": "/images/logos--auth0-icon.png"
         }, {
             "id": 19,
+            "label": "Mocha",
+            "icon": "/images/devicon--mocha.png"
+        }, {
+            "id": 20,
             "label": "Docker",
-            "icon": "../../src/assets/images/logos--docker-icon.png"
+            "icon": "/images/logos--docker-icon.png"
         }]
     }, {
         "id": 3,
@@ -130,7 +130,7 @@
         "date": "Nov 2013 - Jul 2017",
         "employmentType": "Full-time",
         "location": "Kuala Lumpur",
-        "icon": "../../src/assets/images/comp-yr.png",
+        "icon": "/images/comp-yr.png",
         "tasks": [
             "Designed and developed Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
             "Implemented custom features on Alfresco backend using Java",
@@ -144,59 +144,59 @@
         "technologies": [{
             "id": 1,
             "label": "Alfresco",
-            "icon": "../../src/assets/images/logos--alfresco.png"
+            "icon": "/images/logos--alfresco.png"
+        }, {
+            "id": 2,
+            "label": "MySQL",
+            "icon": "/images/devicon--mysql.png"
         }, {
             "id": 3,
-            "label": "MySQL",
-            "icon": "../../src/assets/images/devicon--mysql.png"
+            "label": "Java 8",
+            "icon": "/images/devicon--java.png"
         }, {
             "id": 4,
-            "label": "Java 8",
-            "icon": "../../src/assets/images/devicon--java.png"
+            "label": "JavaScript",
+            "icon": "/images/devicon--javascript.png"
         }, {
             "id": 5,
-            "label": "JavaScript",
-            "icon": "../../src/assets/images/devicon--javascript.png"
+            "label": "AngularJS",
+            "icon": "/images/devicon--angularjs.png"
         }, {
             "id": 6,
-            "label": "AngularJS",
-            "icon": "../../src/assets/images/devicon--angularjs.png"
+            "label": "Bootstrap",
+            "icon": "/images/logos--bootstrap.png"
         }, {
             "id": 7,
-            "label": "Bootstrap",
-            "icon": "../../src/assets/images/logos--bootstrap.png"
+            "label": "jQuery",
+            "icon": "/images/devicon--jquery.png"
         }, {
             "id": 8,
-            "label": "jQuery",
-            "icon": "../../src/assets/images/devicon--jquery.png"
+            "label": "YUI",
+            "icon": "/images/logos--yui.png"
         }, {
             "id": 9,
-            "label": "YUI",
-            "icon": "../../src/assets/images/logos--yui.png"
+            "label": "QUnit",
+            "icon": "/images/devicon--qunit.png"
         }, {
             "id": 10,
-            "label": "QUnit",
-            "icon": "../../src/assets/images/devicon--qunit.png"
+            "label": "Dojo Toolkit",
+            "icon": "/images/logos--dojo-toolkit.png"
         }, {
             "id": 11,
-            "label": "Dojo Toolkit",
-            "icon": "../../src/assets/images/logos--dojo-toolkit.png"
+            "label": "Tomcat",
+            "icon": "/images/devicon--tomcat.png"
         }, {
             "id": 12,
-            "label": "Tomcat",
-            "icon": "../../src/assets/images/devicon--tomcat.png"
+            "label": "Jira",
+            "icon": "/images/devicon--jira.png"
         }, {
             "id": 13,
-            "label": "Jira",
-            "icon": "../../src/assets/images/devicon--jira.png"
+            "label": "Confluence",
+            "icon": "/images/devicon--confluence.png"
         }, {
             "id": 14,
-            "label": "Confluence",
-            "icon": "../../src/assets/images/devicon--confluence.png"
-        }, {
-            "id": 15,
             "label": "Bitbicket",
-            "icon": "../../src/assets/images/devicon--bitbucket.png"
+            "icon": "/images/devicon--bitbucket.png"
         }]
     }, {
         "id": 4,
@@ -205,7 +205,7 @@
         "date": "Apr 2011 - Dec 2012",
         "employmentType": "Full-time",
         "location": "Kuala Lumpur",
-        "icon": "../../src/assets/images/comp-brunsfield.png",
+        "icon": "/images/comp-brunsfield.png",
         "tasks": [
             "Built features on various in-house systems, translating the design to JSP codes.",
             "Enhanced existing UIs to be more responsive using jQuery and AJAX.",
@@ -214,31 +214,31 @@
         "technologies": [{
             "id": 1,
             "label": "HTML",
-            "icon": "../../src/assets/images/devicon--html5.png"
+            "icon": "/images/devicon--html5.png"
         }, {
             "id": 2,
             "label": "CSS",
-            "icon": "../../src/assets/images/devicon--css3.png"
+            "icon": "/images/devicon--css3.png"
         }, {
             "id": 3,
             "label": "Java 6",
-            "icon": "../../src/assets/images/devicon--java.png"
+            "icon": "/images/devicon--java.png"
         }, {
             "id": 4,
             "label": "JavaServer Pages",
-            "icon": "../../src/assets/images/logos--jsp.png"
+            "icon": "/images/logos--jsp.png"
         }, {
             "id": 5,
             "label": "MySQL",
-            "icon": "../../src/assets/images/devicon--mysql.png"
+            "icon": "/images/devicon--mysql.png"
         }, {
             "id": 6,
             "label": "Tomcat",
-            "icon": "../../src/assets/images/devicon--tomcat.png"
+            "icon": "/images/devicon--tomcat.png"
         }, {
             "id": 7,
             "label": "JSON",
-            "icon": "../../src/assets/images/devicon--json.png"
+            "icon": "/images/devicon--json.png"
         }]
     }]
 }

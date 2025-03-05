@@ -12,35 +12,35 @@
         "technologies": [{
             "id": 1,
             "label": "HTML",
-            "icon": "../../src/assets/images/devicon--html5.png"
+            "icon": "/images/devicon--html5.png"
         }, {
             "id": 2,
             "label": "CSS3",
-            "icon": "../../src/assets/images/devicon--css3.png"
+            "icon": "/images/devicon--css3.png"
         }, {
             "id": 3,
             "label": "Angular",
-            "icon": "../../src/assets/images/devicon--angular.png"
+            "icon": "/images/devicon--angular.png"
         }, {
             "id": 4,
             "label": "Angular Material",
-            "icon": "../../src/assets/images/devicon--angularmaterial.png"
+            "icon": "/images/devicon--angularmaterial.png"
         }, {
             "id": 5,
             "label": "JavaScript",
-            "icon": "../../src/assets/images/devicon--javascript.png"
+            "icon": "/images/devicon--javascript.png"
         }, {
             "id": 6,
             "label": "TypeScript",
-            "icon": "../../src/assets/images/devicon--typescript.png"
+            "icon": "/images/devicon--typescript.png"
         }, {
             "id": 7,
             "label": "AngularJS",
-            "icon": "../../src/assets/images/devicon--angularjs.png"
+            "icon": "/images/devicon--angularjs.png"
         }, {
             "id": 8,
             "label": "Bootstrap",
-            "icon": "../../src/assets/images/logos--bootstrap.png"
+            "icon": "/images/logos--bootstrap.png"
         }]
     }, {
         "id": 2,
@@ -49,23 +49,23 @@
         "technologies": [{
             "id": 9,
             "label": "Node.js",
-            "icon": "../../src/assets/images/devicon--nodejs.png"
+            "icon": "/images/devicon--nodejs.png"
         }, {
             "id": 10,
             "label": "Express.js",
-            "icon": "../../src/assets/images/skill-icons--expressjs-light.png"
+            "icon": "/images/skill-icons--expressjs-light.png"
         }, {
             "id": 11,
             "label": "Python",
-            "icon": "../../src/assets/images/devicon--python.png"
+            "icon": "/images/devicon--python.png"
         }, {
             "id": 12,
             "label": "FastAPI",
-            "icon": "../../src/assets/images/devicon--fastapi.png"
+            "icon": "/images/devicon--fastapi.png"
         }, {
             "id": 13,
             "label": "Java",
-            "icon": "../../src/assets/images/devicon--java.png"
+            "icon": "/images/devicon--java.png"
         }]
     }, {
         "id": 3,
@@ -74,11 +74,11 @@
         "technologies": [{
             "id": 14,
             "label": "PostgreSQL",
-            "icon": "../../src/assets/images/devicon--postgresql.png"
+            "icon": "/images/devicon--postgresql.png"
         }, {
             "id": 15,
             "label": "MySQL",
-            "icon": "../../src/assets/images/devicon--mysql.png"
+            "icon": "/images/devicon--mysql.png"
         }]
     }, {
         "id": 4,
@@ -87,19 +87,19 @@
         "technologies": [{
             "id": 1,
             "label": "Postman",
-            "icon": "../../src/assets/images/devicon--postman.png"
+            "icon": "/images/devicon--postman.png"
         }, {
             "id": 2,
             "label": "Mocha",
-            "icon": "../../src/assets/images/devicon--mocha.png"
+            "icon": "/images/devicon--mocha.png"
         }, {
             "id": 3,
             "label": "Cypress",
-            "icon": "../../src/assets/images/devicon--cypressio.png"
+            "icon": "/images/devicon--cypressio.png"
         }, {
             "id": 4,
             "label": "pytest",
-            "icon": "../../src/assets/images/devicon--pytest.png"
+            "icon": "/images/devicon--pytest.png"
         }]
     }, {
         "id": 5,
@@ -108,7 +108,7 @@
         "technologies": [{
             "id": 1,
             "label": "Docker",
-            "icon": "../../src/assets/images/logos--docker-icon.png"
+            "icon": "/images/logos--docker-icon.png"
         }]
     }, {
         "id": 6,
@@ -117,109 +117,109 @@
         "technologies": [{
             "id": 1,
             "label": "Git",
-            "icon": "../../src/assets/images/devicon--git.png"
+            "icon": "/images/devicon--git.png"
         }, {
             "id": 2,
             "label": "Figma",
-            "icon": "../../src/assets/images/devicon--figma.png"
+            "icon": "/images/devicon--figma.png"
         }, {
             "id": 4,
             "label": "Linux",
-            "icon": "../../src/assets/images/devicon--linux.png"
+            "icon": "/images/devicon--linux.png"
         }, {
             "id": 3,
             "label": "Jenkins",
-            "icon": "../../src/assets/images/devicon--jenkins.png"
+            "icon": "/images/devicon--jenkins.png"
         }]
     }],
     
     "stacks": [{
         "id": 1,
         "label": "HTML",
-        "icon": "../../src/assets/images/devicon--html5.png"
+        "icon": "/images/devicon--html5.png"
     }, {
         "id": 2,
         "label": "CSS3",
-        "icon": "../../src/assets/images/devicon--css3.png"
+        "icon": "/images/devicon--css3.png"
     }, {
         "id": 3,
         "label": "Angular",
-        "icon": "../../src/assets/images/devicon--angular.png"
+        "icon": "/images/devicon--angular.png"
     }, {
         "id": 4,
         "label": "Angular Material",
-        "icon": "../../src/assets/images/devicon--angularmaterial.png"
+        "icon": "/images/devicon--angularmaterial.png"
     }, {
         "id": 5,
         "label": "JavaScript",
-        "icon": "../../src/assets/images/devicon--javascript.png"
+        "icon": "/images/devicon--javascript.png"
     }, {
         "id": 6,
         "label": "TypeScript",
-        "icon": "../../src/assets/images/devicon--typescript.png"
+        "icon": "/images/devicon--typescript.png"
     }, {
         "id": 7,
         "label": "AngularJS",
-        "icon": "../../src/assets/images/devicon--angularjs.png"
+        "icon": "/images/devicon--angularjs.png"
     }, {
         "id": 8,
         "label": "Bootstrap",
-        "icon": "../../src/assets/images/logos--bootstrap.png"
+        "icon": "/images/logos--bootstrap.png"
     }, {
         "id": 9,
         "label": "Node.js",
-        "icon": "../../src/assets/images/devicon--nodejs.png"
+        "icon": "/images/devicon--nodejs.png"
     }, {
         "id": 10,
         "label": "Express.js",
-        "icon": "../../src/assets/images/skill-icons--expressjs-light.png"
+        "icon": "/images/skill-icons--expressjs-light.png"
     }, {
         "id": 11,
         "label": "Python",
-        "icon": "../../src/assets/images/devicon--python.png"
+        "icon": "/images/devicon--python.png"
     }, {
         "id": 12,
         "label": "FastAPI",
-        "icon": "../../src/assets/images/devicon--fastapi.png"
+        "icon": "/images/devicon--fastapi.png"
     }, {
         "id": 13,
         "label": "Java",
-        "icon": "../../src/assets/images/devicon--java.png"
+        "icon": "/images/devicon--java.png"
     }, {
         "id": 14,
         "label": "PostgreSQL",
-        "icon": "../../src/assets/images/devicon--postgresql.png"
+        "icon": "/images/devicon--postgresql.png"
     }, {
         "id": 15,
         "label": "MySQL",
-        "icon": "../../src/assets/images/devicon--mysql.png"
+        "icon": "/images/devicon--mysql.png"
     }, {
         "id": 16,
         "label": "Git",
-        "icon": "../../src/assets/images/devicon--git.png"
+        "icon": "/images/devicon--git.png"
     }, {
         "id": 17,
         "label": "Docker",
-        "icon": "../../src/assets/images/logos--docker-icon.png"
+        "icon": "/images/logos--docker-icon.png"
     }, {
         "id": 18,
         "label": "Figma",
-        "icon": "../../src/assets/images/devicon--figma.png"
+        "icon": "/images/devicon--figma.png"
     }, {
         "id": 19,
         "label": "Postman",
-        "icon": "../../src/assets/images/devicon--postman.png"
+        "icon": "/images/devicon--postman.png"
     }, {
         "id": 20,
         "label": "Cypress",
-        "icon": "../../src/assets/images/devicon--cypressio.png"
+        "icon": "/images/devicon--cypressio.png"
     }, {
         "id": 21,
         "label": "pytest",
-        "icon": "../../src/assets/images/devicon--pytest.png"
+        "icon": "/images/devicon--pytest.png"
     }, {
         "id": 22,
         "label": "Jenkins",
-        "icon": "../../src/assets/images/devicon--jenkins.png"
+        "icon": "/images/devicon--jenkins.png"
     }]
 }
