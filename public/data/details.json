@@ -3,7 +3,7 @@
     
     "socialLinks": [{
         "id": 1,
-        "link": "https://www.linkedin.com/in/j-y-11664784/",
+        "link": "https://www.linkedin.com/in/sjiayi-11664784/",
         "label": "LinkedIn"
     }, {
         "id": 2,
@@ -11,11 +11,11 @@
         "label": "Email"
     }, {
         "id": 3,
-        "link": "#",
+        "link": "https://github.com/sjiayi-work/portfolio",
         "label": "GitHub"
     }],
     
-    "contactDescription": "I'm looking for full-time Software Engineering or Machine Learning opportunities. If you know of any positions available, let's talk and work together!",
+    "contactDescription": "I'm looking for full-time Software Engineering / Web Development / Machine Learning opportunities. If you know of any positions available, let's talk and work together!",
     
     "openToPublic": true
 }
