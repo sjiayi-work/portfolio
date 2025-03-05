@@ -39,7 +39,7 @@
             "Mentored junior developers on coding best practices, design patterns, and troubleshooting.",
             "Participated in code reviewing of the team, ensuring functional and technical standards are well maintained.",
             "Collaborated with the QA team to identify bugs and troubleshoot issues, ensuring software quality.",
-            "Created technical specifications with UI design and divided them into tasks.",
+            "Created technical specifications with UI design and divided them into tasks for the development team to work on.",
             "Managed application deployment in Docker."
         ],
         "technologies": [{
@@ -132,12 +132,13 @@
         "location": "Kuala Lumpur",
         "icon": "/images/comp-yr.png",
         "tasks": [
-            "Designed and developed Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
+            "Designed and developed Alfresco (ECM Software) Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
             "Implemented custom features on Alfresco backend using Java",
             "Customised Alfresco Share UIs and actions using YUI library, Dojo toolkit and jQuery.",
             "Developed custom widgets (dashlets) to display specific content or functionalities on the Alfresco dashboard.",
             "Externalised custom UIs by developing separate AngularJS web application, offering a more interactive and lightweight alternative to the native Alfresco Share UIs",
             "Built custom UIs based on the client's Figma design.",
+            "Built a simple cross-platform desktop application using Electron.js to automate the user actions to access specific websites and download files.",
             "Provided technical support for existing products by performing bug fixes and resolving issues reported by users.",
             "Wrote QUnit tests, prepared behavior-driven test cases, and conducted manual end-to-end (e2e) testing to ensure the integrity of features and applications."
         ],
@@ -167,34 +168,42 @@
             "icon": "/images/logos--bootstrap.png"
         }, {
             "id": 7,
+            "label": "Node.js",
+            "icon": "/images/devicon--nodejs.png"
+        }, {
+            "id": 8,
+            "label": "Electron.js",
+            "icon": "/images/devicon--electron.png"
+        }, {
+            "id": 9,
             "label": "jQuery",
             "icon": "/images/devicon--jquery.png"
         }, {
-            "id": 8,
+            "id": 10,
             "label": "YUI",
             "icon": "/images/logos--yui.png"
         }, {
-            "id": 9,
+            "id": 11,
             "label": "QUnit",
             "icon": "/images/devicon--qunit.png"
         }, {
-            "id": 10,
+            "id": 12,
             "label": "Dojo Toolkit",
             "icon": "/images/logos--dojo-toolkit.png"
         }, {
-            "id": 11,
+            "id": 13,
             "label": "Tomcat",
             "icon": "/images/devicon--tomcat.png"
         }, {
-            "id": 12,
+            "id": 14,
             "label": "Jira",
             "icon": "/images/devicon--jira.png"
         }, {
-            "id": 13,
+            "id": 15,
             "label": "Confluence",
             "icon": "/images/devicon--confluence.png"
         }, {
-            "id": 14,
+            "id": 16,
             "label": "Bitbicket",
             "icon": "/images/devicon--bitbucket.png"
         }]

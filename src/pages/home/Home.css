@@ -1,6 +1,6 @@
-section#home {
+/* section#home {
     padding: 0;
-}
+} */
 
 .home {
     padding-top: 200px;
@@ -8,7 +8,7 @@ section#home {
 
 .home .content {
     text-align: left;
-    height: calc(100vh - 90px);
+    /* height: calc(100vh - 90px); */
 }
 
 .greeting-title {
