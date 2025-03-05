@@ -1,12 +1,10 @@
 import './About.css';
-import Experiences, { Experience } from '../experiences/Experiences';
 import TechStacks, { Stack } from '../../components/tech-stacks/TechStacks';
 import useFetch from '../../hooks/useFetch';
 
 interface About {
     descriptions: string[];
     stacks: Stack[];
-    experiences: Experience[];
 }
 
 const About = () => {
@@ -32,7 +30,6 @@ const About = () => {
                                 </div>
                             </div>
                             <TechStacks stacks={data.stacks} />
-                            <Experiences experiences={data.experiences} />
                         </>
                     )}
                 </div>
