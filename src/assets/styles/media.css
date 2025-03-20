@@ -14,6 +14,10 @@
         flex-direction: column-reverse;
     }
     
+    #home .container .content .profile {
+        min-height: 600px;
+    }
+    
     #home .container .content .contact {
         text-align: center;
     }
@@ -109,9 +113,9 @@
     }
 }
 
-@media (max-width: 728px) {
+@media (max-width: 320px) {
     html, body {
-        min-width: 728px;   /* Minimum width for tablet devices */
+        min-width: 320px;   /* Minimum width for tablet devices */
         overflow-x: auto;
     }
 }

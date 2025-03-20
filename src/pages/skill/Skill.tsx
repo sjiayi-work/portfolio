@@ -16,14 +16,18 @@ interface Skill {
     descriptions: string[];
 }
 
+interface Data {
+    skills: Skill[];
+}
+
 const Skill = () => {
-    const { data: skills, error, isPending } = useFetch<Skill[]>('/data/skills.json');
+    const { data, error, isPending } = useFetch<Data>('/data/skills.json');
     
     return (
         <section id="skills">
             { error && <div className="error">{error}</div> }
             { isPending && <div>Loading...</div> }
-            { skills && (
+            { data && (
                 <>
                     <div className="container container-lg">
                         <h1>What I do</h1>
@@ -57,7 +61,7 @@ const Skill = () => {
                                 );
                             })} */}
                             <div className="card-grid">
-                                { skills.map((skill: Skill) => {
+                                { data.skills.map((skill: Skill) => {
                                     return (
                                         <div className="card mb-4 p-2" key={skill.id}>
                                             <div className="card-title" data-aos="zoom-in">

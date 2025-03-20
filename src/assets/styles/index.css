@@ -2,27 +2,29 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-    --primary-accent: #0c0c0c;
-    /* --primary-accent: #0c1618; */
+    /* --primary-accent: #0c0c0c; */
+    --primary-accent: #0c1618;
     /* --secondary-accent: #6f1d1b; */
-    /* --secondary-accent: #938458; */
-    --secondary-accent: #ffc400;
+    --secondary-accent: #b45250;
+    /* --secondary-accent: #ffc400; */
     --primary-reverse-accent: #ffffff;
     --primary-accent-rgba: 12, 12, 12;
     --primary-reverse-accent-rgba: 255, 255, 255;
-    --secondary-accent-rgb: 147, 132, 88;
+    --secondary-accent-rgb: 180, 82, 80;
     --card-box-shadow-color: #0003;
     --gray-color: #e9e8e8;
+    --gray-color-heavy: #424242;
     --fa-animation-duration: 7s;
 }
 
 .dark-mode {
     --primary-accent: #ffffff;
-    --primary-reverse-accent: #0c0c0c;
-    /* --primary-reverse-accent: #0c1618; */
+    /* --primary-reverse-accent: #0c0c0c; */
+    --primary-reverse-accent: #0c1618;
     --primary-accent-rgba: 255, 255, 255;
-    --primary-reverse-accent-rgba: 12, 12, 12;
-    /* --primary-reverse-accent-rgba: 12, 22, 24; */
+    /* --primary-reverse-accent-rgba: 12, 12, 12; */
+    --primary-reverse-accent-rgba: 12, 22, 24;
+    --gray-color-heavy: #cccccc;
     --card-box-shadow-color: #d9dbdf;
 }
 
@@ -58,7 +60,7 @@ h3 {
 }
 
 h4 {
-    font-size: 25px;
+    font-size: 22px;
     margin-bottom: 24px;
 }
 
@@ -187,6 +189,18 @@ li::before {
     color: var(--secondary-accent);
 }
 
+.color-gray {
+    color: var(--gray-color-heavy);
+}
+
+.image-profile {
+    border: .5rem solid var(--secondary-accent);
+    border-radius: 50%;
+    /* box-shadow: 0 30px 30px -30px #0000001a; */
+    max-width: 350px;
+    transition: all .3sease -out;
+}
+
 /********** Buttons **********/
 
 button {
@@ -225,6 +239,14 @@ button:hover {
 .btn-reverse:hover {
     background: var(--primary-reverse-accent);
     color: var(--secondary-accent);
+}
+
+.fa-icon-48 {
+    height: 48px !important;    /** Override Fontawesome css 'svg-inline--fa' class **/
+}
+
+.fa-icon-36 {
+    height: 36px !important;    /** Override Fontawesome css 'svg-inline--fa' class **/
 }
 
 .fa-icon-24 {
@@ -298,6 +320,10 @@ button:hover {
     justify-content: center;
 }
 
+.justify-space-around {
+    justify-content: space-around;
+}
+
 .gap-1 {
     gap: 1rem;
 }
@@ -326,20 +352,17 @@ button:hover {
     border: 1px solid hsla(0, 0%, 83%, .397);
     border-radius: 10px;
     box-shadow: 0 10px 30px -15px var(--card-box-shadow-color);
-    /* padding: 2rem; */
     transition: all .3s ease;
 }
 
 .card:hover {
     box-shadow: 0 20px 30px -10px var(--card-box-shadow-color);
-    /* transform: scale(1.05); */
 }
 
 .card-title {
     font-size: 25px;
     margin-bottom: 0;
     padding: 2rem;
-    /* margin-top: 0; */
     border-bottom: 1px solid var(--gray-color);
     text-transform: uppercase;
     font-weight: 500;

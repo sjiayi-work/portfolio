@@ -1,5 +1,6 @@
 import './Skills.css';
 import useFetch from '../../hooks/useFetch';
+import TechStacks from '../../components/tech-stacks/TechStacks';
 
 export interface Technology {
     id: number;
@@ -16,21 +17,26 @@ export interface Stack {
 }
 
 interface Data {
-    stacksNew: Stack[]
+    stacks: Stack[];
+    technologies: Technology[];
 }
 
 const Skills = () => {
-    const { data, error, isPending } = useFetch<Data>('/data/about.json');
+    const { data, error, isPending } = useFetch<Data>('/data/skills.json');
     
     return (
         <section id="skills">
             <div className="container container-lg">
                 <h1>Skills</h1>
                 <div className="content">
-                    <div className="card-grid">
+                    { error && <div className="error">{error}</div> }
+                    { isPending && <div>Loading...</div> }
+                    { data && <TechStacks stacks={data.technologies} /> }
+                    
+                    {/* <div className="card-grid">
                         { error && <div className="error">{error}</div> }
                         { isPending && <div>Loading...</div> }
-                        { data && data.stacksNew.map((stack: Stack) => {
+                        { data && data.stacks.map((stack: Stack) => {
                             return (
                                 <div className="card" key={stack.id} data-aos="fade-up">
                                     <div className="card-title">
@@ -52,7 +58,7 @@ const Skills = () => {
                                 </div>
                             );
                         }) }
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </section>

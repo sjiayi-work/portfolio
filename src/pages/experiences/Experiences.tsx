@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faEnvelopeOpenText, faLocationDot, faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faLocationDot, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 import './Experiences.css';
 import Tooltip from '../../components/tooltip/Tooltip';
@@ -38,7 +38,7 @@ const Experiences = () => {
                             <div className="timeline flex-row pb-3" key={exp.id}>
                                 <div className="left-panel pe-3" data-aos="fade-right">
                                     <h1>{ exp.company }</h1>
-                                    <div className="date color-secondary">{ exp.date }</div>
+                                    <div className="date color-gray">{ exp.date }</div>
                                 </div>
                                 
                                 <div className="right-panel flex-row text-left">
@@ -51,14 +51,14 @@ const Experiences = () => {
                                         </div>
                                     </div>
                                     <div className="ps-3 pb-3" data-aos="fade-up-left">
-                                        <div className="date color-secondary d-none">{ exp.date }</div>
+                                        <div className="date color-gray d-none">{ exp.date }</div>
                                         <h1 className="d-none">{ exp.company }</h1>
                                         
                                         <h1>{ exp.position }</h1>
-                                        <p>
+                                        {/* <p>
                                             <FontAwesomeIcon icon={faEnvelopeOpenText} className="fa-icon-16 color-secondary" />
                                             <label>{ exp.employmentType }</label>
-                                        </p>
+                                        </p> */}
                                         <p>
                                             <FontAwesomeIcon icon={faLocationDot} className="fa-icon-16 color-secondary" />
                                             <label>{ exp.location }</label>
@@ -68,7 +68,7 @@ const Experiences = () => {
                                                 return (
                                                     <div className="flex-row pb-1" key={index}>
                                                         <FontAwesomeIcon icon={faMinus} className="color-secondary" />
-                                                        <label>{ task }</label>
+                                                        <label className="color-gray">{ task }</label>
                                                     </div>
                                                 );
                                             }) }
@@ -78,7 +78,7 @@ const Experiences = () => {
                                                 return (
                                                     <div key={tech.id} data-aos="fade in">
                                                         <Tooltip text={tech.label}>
-                                                            <img src={tech.icon} className="image-36" />
+                                                            <img src={tech.icon} className="image-24" />
                                                         </Tooltip>
                                                     </div>
                                                 );

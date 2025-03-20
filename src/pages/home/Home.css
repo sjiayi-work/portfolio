@@ -1,20 +1,12 @@
-/* section#home {
-    padding: 0;
-} */
-
-.home {
-    padding-top: 200px;
-}
-
 .home .content {
     text-align: left;
-    /* height: calc(100vh - 90px); */
 }
 
 .greeting-title {
     margin: 5px 0;
-    font-weight: 500;
+    font-weight: 600;
     font-size: clamp(3.25rem, 2.75rem + 2.5vw, 5rem);
+    /* font-size: 4rem; */
     line-height: 1.2;
 }
 

@@ -4,12 +4,12 @@
         "company": "Yell Research",
         "position": "Technical Consultant",
         "date": "Nov 2024 - Present",
-        "employmentType": "Contract",
+        "employmentType": "Part=time",
         "location": "Remote",
         "icon": "/images/comp-yr.png",
         "tasks": [
             "Assisted in creating training material and resources for onboarding new employees, enabling faster learning and smoother transitions.",
-            "Involved in technical tasks occasionally."
+            "Involved in technical tasks occasionally, eg: integrated Apache Superset / other applications into Alfresco UI."
         ],
         "technologies": [{
             "id": 1,
@@ -30,17 +30,17 @@
         "icon": "/images/comp-yr.png",
         "tasks": [
             "Led the development team to deliver complex web applications on time.",
-            "Spearheaded the integration of the application into Microsoft Teams as a channel tab, using connectors and webhooks.",
-            "Architected and migrated an Alfresco-based project to a lightweight Node.js and Angular solution, using Fedora Commons Repository for digital content storage.",
-            "Prototyped a Python-based AI application using Ollama, OpenAI and Google Vertex AI to generate dynamic, context aware responses.",
+            "Spearheaded the integration of the application into Microsoft Teams as a channel tab using connectors and webhooks.",
+            "Architected and migrated an Alfresco-based (ECM Software) project to a lightweight Node.js and Angular solution, using Fedora Commons Repository for digital content storage.",
+            "Prototyped a Python-based AI application using Ollama, OpenAI and Google Vertex AI to generate dynamic and context aware responses.",
             "Designed and implemented RESTful APIs for front end communication in Express.js",
+            "Managed application deployment in Docker.",
             "Collaborated with business analysts to align technical solutions with business processes, translating requirements into actionable features.",
             "Assisted in defining project timelines, estimating effort, and coordinating resources for sprint planning, ensuring achievable development scope.",
             "Mentored junior developers on coding best practices, design patterns, and troubleshooting.",
             "Participated in code reviewing of the team, ensuring functional and technical standards are well maintained.",
             "Collaborated with the QA team to identify bugs and troubleshoot issues, ensuring software quality.",
-            "Created technical specifications with UI design and divided them into tasks for the development team to work on.",
-            "Managed application deployment in Docker."
+            "Prepared technical specifications and mocked UI designs."
         ],
         "technologies": [{
             "id": 1,
@@ -134,13 +134,13 @@
         "tasks": [
             "Designed and developed Alfresco (ECM Software) Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
             "Implemented custom features on Alfresco backend using Java",
-            "Customised Alfresco Share UIs and actions using YUI library, Dojo toolkit and jQuery.",
+            "Customised Alfresco Share UIs using YUI library, Dojo toolkit and jQuery.",
             "Developed custom widgets (dashlets) to display specific content or functionalities on the Alfresco dashboard.",
             "Externalised custom UIs by developing separate AngularJS web application, offering a more interactive and lightweight alternative to the native Alfresco Share UIs",
             "Built custom UIs based on the client's Figma design.",
             "Built a simple cross-platform desktop application using Electron.js to automate the user actions to access specific websites and download files.",
-            "Provided technical support for existing products by performing bug fixes and resolving issues reported by users.",
-            "Wrote QUnit tests, prepared behavior-driven test cases, and conducted manual end-to-end (e2e) testing to ensure the integrity of features and applications."
+            "Fixed issues and maintain services.",
+            "Prepared and conducted testing to ensure the integrity of features and applications."
         ],
         "technologies": [{
             "id": 1,
@@ -206,6 +206,10 @@
             "id": 16,
             "label": "Bitbicket",
             "icon": "/images/devicon--bitbucket.png"
+        }, {
+            "id": 17,
+            "label": "Jasmine",
+            "icon": "/images/devicon--jasmine.svg"
         }]
     }, {
         "id": 4,
@@ -216,7 +220,7 @@
         "location": "Kuala Lumpur",
         "icon": "/images/comp-brunsfield.png",
         "tasks": [
-            "Built features on various in-house systems, translating the design to JSP codes.",
+            "Built features on various in-house systems using JSP.",
             "Enhanced existing UIs to be more responsive using jQuery and AJAX.",
             "Prepared documentation and user manuals."
         ],

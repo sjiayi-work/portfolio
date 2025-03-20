@@ -1,0 +1,7 @@
+# Ignore directories
+node_modules/
+dist/
+
+# Ignore files
+.eslint.config.js
+Dockerfile

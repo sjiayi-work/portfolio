@@ -1,0 +1,5 @@
+services:
+    portfolio:
+        image: sjiayi/portfolio
+        ports:
+            - 3000:80

@@ -1,6 +1,3 @@
-import { faStar } from '@fortawesome/free-regular-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import './TechStacks.css';
 
 export interface Stack {
@@ -10,24 +7,19 @@ export interface Stack {
 }
 
 interface TechStackProp {
-    stacks: Stack[]
+    stacks: Stack[];
 }
 
 const TechStacks = (props: TechStackProp) => {
     const stacks = props.stacks;
     
     return (
-        <div id="tech-stack" className="pb-3">
-            <h2 className="title flex-row justify-content-center align-items-center">
-                <FontAwesomeIcon icon={faStar} spin className="fa-icon-24" />
-                <span>My Stack</span>
-            </h2>
-            
+        <div id="tech-stack">
             <ul className="stack-list">
                 { stacks.map((stack: Stack) => {
                     return (
                         <li className="stack-item flex-row align-items-center" key={stack.id} data-aos="fade-up">
-                            <img src={stack.icon} className="image-36" />
+                            <img src={stack.icon} className="image-24" />
                             <label>{ stack.label }</label>
                         </li>
                     );

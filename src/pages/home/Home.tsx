@@ -27,16 +27,16 @@ const Home = () => {
                     { homeData && 
                         <>
                             <div>
-                                {/* <h1 className="greeting-title">Hi<span className="color-secondary">!</span></h1> */}
-                                <h1 className="greeting-title">Hi <span className="wave-emoji">👋</span></h1>
+                                <h1 className="greeting-title">Hi<span className="color-secondary">!</span></h1>
+                                {/* <h1 className="greeting-title">Hi <span className="wave-emoji">👋</span></h1> */}
                                 { homeData.descriptions.map((desc: string, index: number) => <p key={index}>{ desc }</p>) }
                                 <div className="contact">
                                     <SocialLinks />
-                                    <button onClick={() => window.open(data.openToPublic ? homeData.resumeLink : '', '_blank')}>See My Resume</button>
+                                    <button onClick={() => window.open(data.openToPublic ? data.resumeLink : '', '_blank')}>See My Resume</button>
                                     {/* <button className="btn-reverse" onClick={handleContactClick}>Contact Me</button> */}
                                 </div>
                             </div>
-                            <div className="text-center">
+                            <div className="profile text-center">
                                 <img className="image-profile" src="/images/avatar.jpg" alt="Avatar" />
                                 <h3 className="font-bold">{ homeData.displayName }</h3>
                                 <h4 className="color-secondary">
