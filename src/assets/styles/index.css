@@ -2,8 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
 
 :root {
-    /* --primary-accent: #0c0c0c; */
-    --primary-accent: #0c1618;
+    --primary-accent: #0c0c0c;
     /* --secondary-accent: #6f1d1b; */
     --secondary-accent: #b45250;
     /* --secondary-accent: #ffc400; */
@@ -19,11 +18,9 @@
 
 .dark-mode {
     --primary-accent: #ffffff;
-    /* --primary-reverse-accent: #0c0c0c; */
-    --primary-reverse-accent: #0c1618;
+    --primary-reverse-accent: #0c0c0c;
     --primary-accent-rgba: 255, 255, 255;
-    /* --primary-reverse-accent-rgba: 12, 12, 12; */
-    --primary-reverse-accent-rgba: 12, 22, 24;
+    --primary-reverse-accent-rgba: 12, 12, 12;
     --gray-color-heavy: #cccccc;
     --card-box-shadow-color: #d9dbdf;
 }
