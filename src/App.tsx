@@ -15,6 +15,7 @@ import Footer from './pages/footer/Footer';
 import Skills from './pages/tech-stack/Skills';
 import Experiences from './pages/experiences/Experiences';
 import Education from './pages/education/Education';
+import Projects from './pages/projects/Projects';
 
 function App() {
     // detect what color scheme the user's system or browser is.
@@ -47,6 +48,7 @@ function App() {
                             <Home />
                             <Skills />
                             <Experiences />
+                            <Projects />
                             <Education />
                             <Contact />
                             <Footer />

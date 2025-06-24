@@ -7,17 +7,17 @@ import ToggleSwitch from '../toggle-switch/ToggleSwitch';
 import { DataContext } from '../../contexts/DataContext';
 
 interface MenuItem {
-    id: number;
     label: string;
     href: string;
 }
 
 const Navbar = () => {
     const menuItems: MenuItem[] = [
-        { id: 1, label: 'Skills', href: '#skills' },
-        { id: 2, label: 'Experiences', href: '#experiences' },
-        { id: 3, label: 'Education', href: '#education' },
-        { id: 4, label: 'Contact', href: '#contact' }
+        { label: 'Skills', href: '#skills' },
+        { label: 'Experiences', href: '#experiences' },
+        { label: 'Projects', href: '#projects' },
+        { label: 'Education', href: '#education' },
+        { label: 'Contact', href: '#contact' }
     ];
     
     const [menuIcon, setMenuIcon] = useState<IconDefinition>(faBars);
@@ -74,10 +74,10 @@ const Navbar = () => {
                         { data && <a href="#home">{ data.headerTitle }</a> }
                     </div>
                     <div className="nav-list">
-                        { menuItems.map((menu: MenuItem) => {
+                        { menuItems.map((menu: MenuItem, index: number) => {
                             return (
                                 <a className={activeHash == menu.href ? 'nav-link active': 'nav-link'} 
-                                    href={menu.href} key={menu.id}>
+                                    href={menu.href} key={index}>
                                     { menu.label }
                                 </a>
                             );

@@ -1,25 +1,7 @@
 import './Skills.css';
 import useFetch from '../../hooks/useFetch';
 import TechStacks from '../../components/tech-stacks/TechStacks';
-
-export interface Technology {
-    id: number;
-    label: string;
-    icon: string;
-}
-
-export interface Stack {
-    id: number;
-    topic: string;
-    technologies: Technology[];
-    svg?: string;
-    svgClass?: string;
-}
-
-interface Data {
-    stacks: Stack[];
-    technologies: Technology[];
-}
+import { Data } from '../models';
 
 const Skills = () => {
     const { data, error, isPending } = useFetch<Data>('/data/skills.json');

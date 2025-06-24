@@ -14,7 +14,7 @@ const TypingEffect = ({ typingSpeed = 80, deletingSpeed = 50, delayBetweenWords 
     
     useEffect(() => {
         const currentWord = words[currentIndex % words.length];
-  
+        
         const handleTyping = () => {
             if (isDeleting) {
                 // Deleting logic
@@ -32,7 +32,7 @@ const TypingEffect = ({ typingSpeed = 80, deletingSpeed = 50, delayBetweenWords 
                 }
             }
         };
-
+        
         const timeout = setTimeout(handleTyping, isDeleting ? deletingSpeed : typingSpeed);
         return () => clearTimeout(timeout); // Cleanup timeout
         

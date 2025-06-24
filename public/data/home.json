@@ -1,13 +1,13 @@
 {
     "displayName": "Jia Yi",
     
-    "titles": ["Full-stack Engineer", "Research & Development", "Caffeine Enthusiast"],
+    "titles": ["Full-stack Engineer", "Caffeine Enthusiast"],
     
     "description": "A passionate full stack engineer, having experiences in building web applications with Express.js / FastAPI / Angular and some other frameworks.",
     
     "descriptions": [
-        "I'm a senior software engineer from Kuala Lumpur, Malaysia, specialising in full-stack development with a strong focus on backend implementation. My expertise spans Python, Node.js, Angular and some other frameworks.",
-        "I describe myself as a passionate developer in learning new technologies and continuously expanding my skill set. I excel in both team-based environments and independent work, whether collaborating with others or working autonomously.",
-        "Life is about balance, and I love embracing every part of it. That's why I appreciate remote opportunities, as it provides the flexibility to balance my professional and personal life effectively."
+        "I'm a senior software engineer from Kuala Lumpur, Malaysia, specialising in full-stack development with a strong focus on backend implementation. My expertise spans FastAPI, Express.js, Angular and some other frameworks.",
+        "I describe myself as a passionate developer who enjoys learning new technologies and continuously expanding my skill set. React, Next.js, pytest and basic level of Jenkins are a few of those that I have picked up along the way. I'm just as comfortable working solo as I am jamming with a team.",
+        "Outside of code, I'm all about balance — work, life, sleep (when I can). That's why I'm a big fan of remote work: fewer commutes, more focus, better coffee."
     ]
 }

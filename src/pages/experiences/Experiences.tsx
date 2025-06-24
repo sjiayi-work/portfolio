@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBriefcase, faLocationDot, faMinus } from '@fortawesome/free-solid-svg-icons';
+import { faBriefcase, faEnvelopeOpenText, faLocationDot, faMinus } from '@fortawesome/free-solid-svg-icons';
 
 import './Experiences.css';
 import Tooltip from '../../components/tooltip/Tooltip';
@@ -55,10 +55,10 @@ const Experiences = () => {
                                         <h1 className="d-none">{ exp.company }</h1>
                                         
                                         <h1>{ exp.position }</h1>
-                                        {/* <p>
+                                        <p>
                                             <FontAwesomeIcon icon={faEnvelopeOpenText} className="fa-icon-16 color-secondary" />
                                             <label>{ exp.employmentType }</label>
-                                        </p> */}
+                                        </p>
                                         <p>
                                             <FontAwesomeIcon icon={faLocationDot} className="fa-icon-16 color-secondary" />
                                             <label>{ exp.location }</label>

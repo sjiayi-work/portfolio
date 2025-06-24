@@ -1,0 +1,35 @@
+{
+    "projects": [{
+        "title": "NewTube",
+        "type": "Public",
+        "description": "A simple YouTube clone with Next.js 15.",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "Drizzle", "tRPC"],
+        "repoUrl": null,
+        "demoUrl": null,
+        "screenshortUrl": null
+    }, {
+        "title": "Jira Clone",
+        "type": "Public",
+        "description": "A simple Jira clone with Next.js 15.",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "Hono.js", "Prisma"],
+        "repoUrl": "https://github.com/sjiayi-work/jira-clone",
+        "demoUrl": "https://jira-clone-sjiayi.vercel.app/sign-in",
+        "screenshortUrl": "/images/sc-jira-clone.png"
+    }, {
+        "title": "Portfolio",
+        "type": "Public",
+        "description": "My simple portfolio with React 19.",
+        "technologies": ["React", "CSS"],
+        "repoUrl": "https://github.com/sjiayi-work/portfolio",
+        "demoUrl": "https://sjiayi-portfolio.vercel.app/",
+        "screenshortUrl": "/images/sc-portfolio.png"
+    }, {
+        "title": "Jira Clone (Angular)",
+        "type": "Private",
+        "description": "A simple Jira clone with Angular 19.",
+        "technologies": ["FastAPI", "Angular", "Angular Material", "PostgreSQL"],
+        "repoUrl": null,
+        "demoUrl": null,
+        "screenshortUrl": "/images/sc-jira.png"
+    }]
+}

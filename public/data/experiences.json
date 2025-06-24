@@ -2,14 +2,14 @@
     "data": [{
         "id": 1,
         "company": "Yell Research",
-        "position": "Technical Consultant",
+        "position": "Senior Software Engineer",
         "date": "Nov 2024 - Present",
-        "employmentType": "Part=time",
+        "employmentType": "Part-time",
         "location": "Remote",
         "icon": "/images/comp-yr.png",
         "tasks": [
-            "Assisted in creating training material and resources for onboarding new employees, enabling faster learning and smoother transitions.",
-            "Involved in technical tasks occasionally, eg: integrated Apache Superset / other applications into Alfresco UI."
+            "Improving Onboarding Experience - created internal training materials and onboarding guides to support new hires",
+            "Enhancing Application with Data Visualizations - contributed to technical improvements by integrating Apache Superset into the existing Alfresco-based application."
         ],
         "technologies": [{
             "id": 1,
@@ -29,18 +29,11 @@
         "location": "Remote",
         "icon": "/images/comp-yr.png",
         "tasks": [
-            "Led the development team to deliver complex web applications on time.",
-            "Spearheaded the integration of the application into Microsoft Teams as a channel tab using connectors and webhooks.",
-            "Architected and migrated an Alfresco-based (ECM Software) project to a lightweight Node.js and Angular solution, using Fedora Commons Repository for digital content storage.",
-            "Prototyped a Python-based AI application using Ollama, OpenAI and Google Vertex AI to generate dynamic and context aware responses.",
-            "Designed and implemented RESTful APIs for front end communication in Express.js",
-            "Managed application deployment in Docker.",
-            "Collaborated with business analysts to align technical solutions with business processes, translating requirements into actionable features.",
-            "Assisted in defining project timelines, estimating effort, and coordinating resources for sprint planning, ensuring achievable development scope.",
-            "Mentored junior developers on coding best practices, design patterns, and troubleshooting.",
-            "Participated in code reviewing of the team, ensuring functional and technical standards are well maintained.",
-            "Collaborated with the QA team to identify bugs and troubleshoot issues, ensuring software quality.",
-            "Prepared technical specifications and mocked UI designs."
+            "Modernising a Legacy ECM Platform - re-architected and migrated an existing Alfresco-based content management system to a streamlined Express.js and Angular stack, backed by Fedora Commons Repository.",
+            "Integrating with Microsoft Teams - enabled in-platform access by integrating our application into Microsoft Teams as a channel tab using Teams connectors and webhooks.",
+            "Prototyping AI-Powered Tools - built a proof-of-concept using Python, Ollama, OpenAI, and Google Vertex AI to explore dynamic, context-aware responses within enterprise tools.",
+            "Leading Development & Mentorship - led a full-stack development team delivering web apps under timelines. Took on multiple leadership and cross-functional responsibilities.",
+            "Technical Documentation & UX Planning - prepared technical specs and UI mockups to help align engineering work with business goals. Worked closely with analysts and stakeholders to turn high-level requirements into actionable tasks."
         ],
         "technologies": [{
             "id": 1,
@@ -132,15 +125,11 @@
         "location": "Kuala Lumpur",
         "icon": "/images/comp-yr.png",
         "tasks": [
-            "Designed and developed Alfresco (ECM Software) Web Scripts using server-side JavaScript/Java framework to expose Alfresco's features through RESTful APIs",
-            "Implemented custom features on Alfresco backend using Java",
-            "Customised Alfresco Share UIs using YUI library, Dojo toolkit and jQuery.",
-            "Developed custom widgets (dashlets) to display specific content or functionalities on the Alfresco dashboard.",
-            "Externalised custom UIs by developing separate AngularJS web application, offering a more interactive and lightweight alternative to the native Alfresco Share UIs",
-            "Built custom UIs based on the client's Figma design.",
-            "Built a simple cross-platform desktop application using Electron.js to automate the user actions to access specific websites and download files.",
-            "Fixed issues and maintain services.",
-            "Prepared and conducted testing to ensure the integrity of features and applications."
+            "Extending Alfresco with Custom Features & APIs - designed and developed Alfresco Web Scripts using server-side JavaScript and Java to expose ECM functionality through RESTful APIs.",
+            "Customizing Alfresco UI for Better User Experience - enhanced the Alfresco Share interface using legacy UI libraries such as YUI, Dojo, and jQuery.",
+            "Building a Lightweight Frontend with AngularJS - created a separate AngularJS web application as an alternative to Alfresco Share for improved performance and interactivity. Allowed for easier maintenance and customization outside the Alfresco Share framework, and delivered a more modern UX while still leveraging Alfresco's backend via APIs.",
+            "Automating Tasks with Electron.js - developed a cross-platform desktop app using Electron.js to automate repetitive user actions such as navigating specific websites and downloading resources. simplified a manual task for users, reducing daily friction.",
+            "Testing & Maintenance - Regularly fixed bugs and maintained backend services to ensure platform reliability. Prepared and ran manual and functional tests to validate custom features before release."
         ],
         "technologies": [{
             "id": 1,
@@ -220,9 +209,9 @@
         "location": "Kuala Lumpur",
         "icon": "/images/comp-brunsfield.png",
         "tasks": [
-            "Built features on various in-house systems using JSP.",
-            "Enhanced existing UIs to be more responsive using jQuery and AJAX.",
-            "Prepared documentation and user manuals."
+            "Enhancing In-House Systems with JSP - worked on various internal systems using Java Server Pages (JSP) to build and extend core application features, such as developed UI components and backend logic",
+            "Improving UI Responsiveness - by enhancing legacy UIs with jQuery and AJAX. ",
+            "Writing Documentation & User Guides - created internal documentation and user manuals to support system usage and maintenance."
         ],
         "technologies": [{
             "id": 1,
