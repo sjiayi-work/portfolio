@@ -1,7 +1,7 @@
 {
     "projects": [{
         "title": "NewTube",
-        "type": "Public",
+        "type": "Archive",
         "description": "A simple YouTube clone with Next.js 15.",
         "technologies": ["Next.js", "React", "Tailwind CSS", "Drizzle", "tRPC"],
         "repoUrl": null,
@@ -27,7 +27,7 @@
         "title": "Jira Clone (Angular)",
         "type": "Private",
         "description": "A simple Jira clone with Angular 19.",
-        "technologies": ["FastAPI", "Angular", "Angular Material", "PostgreSQL"],
+        "technologies": ["FastAPI", "Angular", "Angular Material", "PostgreSQL", "Cypress", "pytest"],
         "repoUrl": null,
         "demoUrl": null,
         "screenshortUrl": "/images/sc-jira.png"

@@ -27,7 +27,7 @@ const Projects = () => {
                             return (
                                 <div className={`card ${project.demoUrl ? 'cursor-pointer' : ''}`} key={index} 
                                      data-aos="fade-up" onClick={project.demoUrl ? (e) => openLink(e, project.demoUrl) : undefined}>
-                                    <div className="card-title" style={{ padding: 0, position: 'relative', height: 300 }}>
+                                    <div className="card-title" style={{ padding: 0, position: 'relative', height: 350 }}>
                                         <img src={project.screenshortUrl || "/images/no-image.png"} style={{ position: 'absolute', width: '100%', height: '100%', objectFit: 'cover' }} />
                                     </div>
                                     

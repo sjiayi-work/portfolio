@@ -14,6 +14,7 @@ export interface Stack {
 
 export interface Project {
     title: string;
+    type: string;
     description: string;
     technologies: string[];
     repoUrl: string | null;
